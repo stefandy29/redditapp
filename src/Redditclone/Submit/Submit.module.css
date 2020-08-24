@@ -1,0 +1,70 @@
+.Submit {
+  width: 100%;
+}
+
+.Submit ul li {
+  list-style-type: none;
+}
+
+.SubmitInput {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  width: 400px;
+  resize: none;
+  background-color: rgb(97, 97, 97);
+  color: white;
+}
+
+.SubmitTextarea {
+  font-size: 15px;
+  resize: none;
+  background-color: rgb(97, 97, 97);
+  color: white;
+}
+.SubmitSub {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  width: 200px;
+  background-color: rgb(97, 97, 97);
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .SubmitInput {
+    width: 300px;
+  }
+  .SubmitTextarea {
+    width: 550px;
+  }
+  @media (max-width: 650px) {
+    .SubmitInput {
+      width: 280px;
+    }
+    .SubmitTextarea {
+      width: 420px;
+    }
+    @media (max-width: 500px) {
+      .SubmitTextarea {
+        width: 350px;
+      }
+      @media (max-width: 425px) {
+        .SubmitInput {
+          width: 280px;
+        }
+        .SubmitTextarea {
+          width: 320px;
+        }
+        @media (max-width: 390px) {
+          .SubmitInput {
+            width: 250px;
+          }
+          .SubmitTextarea {
+            width: 290px;
+          }
+        }
+      }
+    }
+  }
+}

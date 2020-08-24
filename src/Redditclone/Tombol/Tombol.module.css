@@ -1,0 +1,9 @@
+.Tombol {
+  cursor: pointer;
+  color: black;
+}
+
+.Tombol:disabled {
+  cursor: not-allowed;
+  color: rgb(184, 184, 184);
+}

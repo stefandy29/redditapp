@@ -1,0 +1,338 @@
+.Post {
+  width: 97%;
+  background-color: rgba(85, 85, 85, 0.747);
+  border: 0.1px solid #ccc;
+  margin: 10px;
+  padding: 5px;
+  padding-bottom: 12px;
+}
+
+.VoteBox {
+  width: 30px;
+  height: 100px;
+  font-size: 25px;
+}
+.VoteBox p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+}
+.VoteBox div {
+  font-size: 20px;
+  text-align: center;
+}
+
+.PostThread {
+  background-color: whitesmoke;
+
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  margin-left: 75px;
+  margin-top: -95px;
+  font-size: 17px;
+}
+
+.PostDesc {
+  margin-left: 30px;
+  font-size: 10px;
+  line-height: 17px;
+  margin-top: -3px;
+  padding-top: 5px;
+}
+.PostDesc0 {
+  display: none;
+  color: rgb(71, 71, 71);
+}
+
+.PostDescP {
+  background-color: rgb(214, 214, 214);
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+}
+
+.PostDesc2 {
+  display: none;
+  text-decoration: none;
+  color: black;
+  background-color: chocolate;
+}
+
+.Para {
+  padding-top: 12px;
+}
+
+.VoteMedia {
+  display: none;
+}
+
+.ToggleButton {
+  width: 25px;
+  margin-top: -35px;
+}
+
+.PostLogo {
+  width: 35px;
+
+  margin-left: 35px;
+  margin-top: -60px;
+  height: 35px;
+}
+
+.PostSubreddit {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.PostSubreddit:hover {
+  color: blue;
+}
+
+.AllComment {
+  background-color: rgba(87, 87, 87, 0.568);
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 5px;
+  text-align: center;
+  border: 0.1px solid rgba(204, 204, 204, 0.527);
+  color: rgba(24, 24, 24, 0.856);
+}
+
+.CommentPost {
+  width: 97%;
+  background-color: rgb(194, 194, 194);
+  border: 0.1px solid rgba(204, 204, 204, 0.541);
+  margin: 10px;
+  padding: 5px;
+  padding-bottom: 12px;
+}
+
+.Comment {
+  display: flex;
+  justify-content: left;
+  margin-left: 2px;
+}
+
+.CommentVote {
+  width: 99%;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 0px;
+}
+
+.CommentVote label {
+  font-size: 12px;
+}
+
+.CommentTime {
+  display: contents;
+}
+.CommentTime2 {
+  display: none;
+}
+
+.VoteCommentButton {
+}
+
+.VoteCommentButton2 {
+  display: none;
+}
+
+.PostDescComment2 {
+  display: none;
+}
+
+.ToggleReply {
+  display: contents;
+}
+
+.ShowReplyComment {
+  margin-right: -150px;
+}
+
+@media (max-width: 1020px) {
+  .Post {
+    width: 850px;
+  }
+  .AllComment {
+    width: 850px;
+  }
+  .CommentPost {
+    width: 850px;
+  }
+  @media (max-width: 900px) {
+    .Post {
+      width: 700px;
+    }
+    .AllComment {
+      width: 700px;
+    }
+    .CommentPost {
+      width: 700px;
+    }
+  }
+  @media (max-width: 750px) {
+    .PostDescCommentVote {
+      display: inherit;
+    }
+    .SubmitComment {
+      display: none;
+    }
+    .ToggleReply {
+      display: none;
+    }
+    .AllComment {
+      width: 600px;
+    }
+    .CommentPost {
+      width: 600px;
+    }
+    .VoteCommentButton {
+      display: none;
+    }
+    .VoteCommentButton2 {
+      background-color: rgba(116, 116, 116, 0.438);
+      display: flex;
+      justify-content: left;
+    }
+    .VoteCommentButton2 div {
+      font-size: 30px;
+      letter-spacing: 10px;
+    }
+    .PostDescComment {
+      font-size: 12px;
+      text-decoration: none;
+    }
+    .PostDescComment2 {
+      font-size: 5px;
+    }
+
+    .Post {
+      width: 600px;
+      padding-right: 15px;
+    }
+    .Para {
+      display: none;
+    }
+    .PostThread {
+      margin-left: 10px;
+    }
+    .VoteBox p {
+      display: none;
+    }
+    .VoteBox div {
+      display: none;
+    }
+    .VoteMedia {
+      display: flex;
+      margin-left: 10px;
+
+      font-size: 30px;
+      background-color: rgba(117, 117, 117, 0.473);
+      margin-top: 5px;
+      margin-bottom: 1px;
+    }
+    .PostDesc {
+      margin-left: 1px;
+      font-size: 15px;
+      line-height: 20px;
+      margin-top: 1px;
+    }
+    .PostDesc2 {
+      display: contents;
+      line-height: 20px;
+    }
+    .PostDesc1 {
+      display: none;
+    }
+    .PostDesc0 {
+      display: contents;
+    }
+    .PostDesc label {
+      font-size: 20px;
+    }
+    .ToggleButton {
+      display: none;
+    }
+    .PostLogo {
+      display: none;
+    }
+    @media (max-width: 650px) {
+      .Post {
+        width: 450px;
+      }
+      .CommentPost {
+        width: 450px;
+      }
+      .AllComment {
+        width: 470px;
+      }
+      .PostDescComment {
+        font-size: 12px;
+        text-decoration: none;
+        display: none;
+      }
+      .PostDescComment2 {
+        display: contents;
+        font-size: 12px;
+        color: rgb(71, 71, 71);
+      }
+      .CommentTime {
+        display: none;
+      }
+      .CommentTime2 {
+        display: contents;
+      }
+
+      @media (max-width: 500px) {
+        .Post {
+          width: 400px;
+        }
+        .CommentPost {
+          width: 400px;
+        }
+        .AllComment {
+          width: 420px;
+        }
+        @media (max-width: 450px) {
+          .Post {
+            width: 375px;
+          }
+          .CommentPost {
+            width: 375px;
+          }
+          .AllComment {
+            width: 395px;
+          }
+          @media (max-width: 425px) {
+            .Post {
+              width: 345px;
+            }
+            .CommentPost {
+              width: 345px;
+            }
+            .AllComment {
+              width: 365px;
+            }
+            @media (max-width: 390px) {
+              .Post {
+                width: 320px;
+              }
+              .CommentPost {
+                width: 320px;
+              }
+              .AllComment {
+                width: 345px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

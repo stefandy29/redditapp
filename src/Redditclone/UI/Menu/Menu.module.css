@@ -1,0 +1,54 @@
+.Menu {
+  margin: 0;
+  background-color: rgba(179, 179, 179, 0.774);
+  padding: 5px;
+  font-size: 25px;
+  border-top: 2px solid rgba(131, 131, 131, 0.712);
+  border-bottom: 2px solid rgb(139, 139, 139);
+  display: flex;
+  justify-content: space-between;
+}
+
+.Toolbar_Post {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(46, 46, 46, 0.774);
+}
+
+.footer {
+  background-color: rgba(110, 110, 110, 0.774);
+  padding: 15px;
+  text-align: center;
+}
+
+.Empty {
+  height: 500px;
+}
+
+.RightToolbar {
+  display: contents;
+}
+
+.MobileSubmit {
+  text-decoration: none;
+  color: black;
+  display: none;
+  margin-top: 4px;
+}
+
+@media (max-width: 1020px) {
+  .RightToolbar {
+    display: none;
+  }
+  .MobileSubmit {
+    display: inline;
+  }
+}
+
+@media (max-width: 750px) {
+  .Sublist {
+    display: none;
+  }
+  .MobileSubmit {
+  }
+}

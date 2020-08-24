@@ -1,0 +1,8 @@
+.upVotePost {
+  padding: 0;
+  color: rgba(59, 59, 59, 0.76);
+  margin: 0;
+
+  box-sizing: border-box;
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.Para {
+  width: 100%;
+  border: 0.1px solid #ccc;
+  background-color: rgb(230, 230, 230);
+  font-size: 15px;
+}

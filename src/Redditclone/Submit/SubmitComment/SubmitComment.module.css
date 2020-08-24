@@ -1,0 +1,32 @@
+.SubmitComment {
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.SubmitComment textarea {
+  font-size: 15px;
+  resize: none;
+  height: 100px;
+  background-color: rgb(77, 77, 77);
+  color: white;
+}
+
+.SubmitComment textarea::placeholder {
+  color: rgb(134, 134, 134);
+}
+
+@media (max-width: 450px) {
+  .SubmitComment textarea {
+    width: 350px;
+  }
+  @media (max-width: 425px) {
+    .SubmitComment textarea {
+      width: 300px;
+    }
+    @media (max-width: 390px) {
+      .SubmitComment textarea {
+        width: 275px;
+      }
+    }
+  }
+}

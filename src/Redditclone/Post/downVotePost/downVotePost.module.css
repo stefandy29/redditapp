@@ -1,0 +1,7 @@
+.downVotePost {
+  padding: 0;
+  color: rgba(59, 59, 59, 0.76);
+
+  box-sizing: border-box;
+  cursor: pointer;
+}
